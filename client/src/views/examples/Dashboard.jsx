@@ -8,7 +8,7 @@ import { Container } from "reactstrap";
 import { withRouter } from "react-router";
 
 /* Once the 'Authservice' and 'withAuth' componenets are created, import them into App.js */
-import AuthHelperMethods from "AuthHelperMethods.js";
+// import AuthHelperMethods from "AuthHelperMethods.js";
 //Our higher order component
 import withAuth from "withAuth.js";
 
@@ -58,7 +58,7 @@ class Dashboard extends Component {
         <div className="main-content" ref="mainContent">
           <Navbar />
           <Header data={this.state.data} />
-          <AdminHome                                                                                                                                                                                                                    />
+          <AdminHome />
           <Container fluid>
             <Footer />
           </Container>
