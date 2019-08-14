@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { withRouter } from "react-router";
 
 // reactstrap components
@@ -19,13 +19,13 @@ import {
   Table,
   Container,
   Row,
-  UncontrolledTooltip,
-} from 'reactstrap';
+  UncontrolledTooltip
+} from "reactstrap";
 // core components
-import Header from 'components/Headers/Header.jsx';
-import AuthHelperMethods from 'AuthHelperMethods.js';
+import Header from "components/Headers/Header.jsx";
+import AuthHelperMethods from "AuthHelperMethods.js";
 //Our higher order component
-import withAuth from 'withAuth.js';
+import withAuth from "withAuth.js";
 
 class Tables extends React.Component {
   render() {
